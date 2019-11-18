@@ -1,0 +1,1 @@
+I honestly for the life of me could not figure out how to run this without tacking it all onto the end of main.ts in a new node project so that's where it all is. Otherwise I think it's all correct.
