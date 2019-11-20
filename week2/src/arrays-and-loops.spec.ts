@@ -1,6 +1,10 @@
-// #1 Take an array of numbers and make them strings
+import { expect } from 'chai';
+import 'mocha';
+
+describe('Test for app.ts', () =>{
+    // #1 Take an array of numbers and make them strings
 function stringItUp(arr) {
-	return arr.map( x => x = new String(x));
+	return arr.map( x => x = x.toString());
 }
 
 console.log(stringItUp([2, 5, 100]));
@@ -8,7 +12,7 @@ console.log(stringItUp([2, 5, 100]));
 
 // #2 Make an array of strings of the names
 function namesOnly(arr) {
-	// your code here
+	return arr.map( x => x = x.name);
 }
 
 console.log(
@@ -39,7 +43,8 @@ console.log(
 
 // #3 Filter the output array from #2.
 function oldOnesOnly(arr) {
-	// your code here
+  var arr1 = arr.filter(x => x = x.age>=80);
+  return arr1.map(x => x = x.age);
 }
 console.log(
 	oldOnesOnly([
@@ -66,3 +71,6 @@ console.log(
 	])
 );
 // output: [80, 100]
+
+
+});
