@@ -27,12 +27,6 @@ export class UnderGrad implements Student{
     getSchedule(): Class[]{
         return this.classSchedule;
     }
-=======
-    };
-    getSchedule(): Class[]{
-        return this.classSchedule;
-    };
->>>>>>> fff4e61ce7ec07cb57e4c6dda1f1ac05596bee6e
 }
 
 const student1 = new UnderGrad("Dan", 2779638);
