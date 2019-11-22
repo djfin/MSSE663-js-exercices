@@ -22,10 +22,10 @@ export class UnderGrad implements Student{
         const size = this.classSchedule.length;
         this.classSchedule.push(x);
         return this.classSchedule.length > size;
-    };
+    }
     getSchedule(): Class[]{
         return this.classSchedule;
-    };
+    }
 }
 
 const student1 = new UnderGrad("Dan", 2779638);
