@@ -18,7 +18,7 @@ var monkey1 = {
     diet: string
     age: number
   
-    constructor(name, diet, age){
+    constructor(name:string, diet:string, age:number){
       this.name = name;
       this.age = age;
       this.diet=diet;
@@ -32,7 +32,7 @@ var monkey1 = {
       return("Happy birthday! This monkey is now " + this.age);
     }
   
-    };
+    }
   var m = new monkey("Gorilla", "Also Fruit", 12);
   console.log(m.out());
   console.log(m.birthday());

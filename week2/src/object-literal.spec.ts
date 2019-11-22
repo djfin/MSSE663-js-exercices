@@ -1,4 +1,3 @@
-import { expect } from 'chai';
 import 'mocha';
 
 describe('Test for app.ts', () =>{
@@ -22,7 +21,7 @@ describe('Test for app.ts', () =>{
         diet: string
         age: number
       
-        constructor(name, diet, age){
+        constructor(name:string, diet:string, age:number){
           this.name = name;
           this.age = age;
           this.diet=diet;
@@ -36,7 +35,7 @@ describe('Test for app.ts', () =>{
           return("Happy birthday! This monkey is now " + this.age);
         }
       
-        };
+        }
       var m = new monkey("Gorilla", "Also Fruit", 12);
       console.log(m.out());
       console.log(m.birthday());   
