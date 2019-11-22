@@ -22,7 +22,6 @@ export class UnderGrad implements Student{
         const size = this.classSchedule.length;
         this.classSchedule.push(x);
         return this.classSchedule.length > size;
-<<<<<<< HEAD
     }
     getSchedule(): Class[]{
         return this.classSchedule;
