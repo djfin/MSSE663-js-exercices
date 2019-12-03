@@ -22,6 +22,7 @@ console.log(d); // 'banana'
 console.log(others); // ['chocolate, 'pears', 'oats', 'pizza']
 
 // #3 Array: Contruct a statement
-export const statement = ['hello', 'taylor'].join(", ");
+export const [hello, taylor] = ['hello', 'taylor']
+export const statement = [hello,taylor].join(", ")
 
 // 'hello, taylor!'

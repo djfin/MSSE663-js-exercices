@@ -37,6 +37,7 @@ export const newNestedObject= {
 }
 // #3 Object with key value pairs: construct a statement
 export const {greeting,name} = { greeting: 'hello', name: 'taylor' };
+export const objStatement = (greeting + ", " + name);
 
 
 

@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import 'mocha';
-import { object, nestedObject, person, job, user, address, id, newNestedObject, greeting, name} from './object-destructuring'
+import { object, nestedObject, person, job, user, address, id, newNestedObject, objStatement} from './object-destructuring'
 
 describe('Object destructuring tests', () => {
   it('#1 should have a variable for every property in the given object', () => {
@@ -18,6 +18,6 @@ describe('Object destructuring tests', () => {
   });
 
   it('#4 should construct a statement from the given object', () => {
-    expect(greeting + ", " + name).to.equal("hello, taylor")
+    expect(objStatement).to.equal("hello, taylor")
   });
 });
